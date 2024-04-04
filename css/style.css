@@ -1,0 +1,379 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+/* Add this CSS to your existing styles */
+
+body {
+    cursor: url('path/to/custom-cursor.png'), auto; /* Replace 'path/to/custom-cursor.png' with the path to your custom cursor image */
+}
+
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Updated link color */
+    transition: color 0.3s ease;
+}
+
+/* Add this CSS to your existing styles */
+
+a:hover {
+    transform: scale(1.2); /* Example: Increase size on hover */
+    transition: transform 0.3s ease; /* Example: Add a smooth transition */
+}
+
+
+/* Header Styles */
+header {
+    background-color: #343a40; /* Updated header background color */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.profile-photo {
+    width: 200px;
+    height: 150px;
+    border-radius: 70%;
+    border: 4px solid #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #35424a; /* Dark blue background */
+    padding: 10px 20px; /* Added padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #ffffff; /* White text */
+    padding: 5px 10px; /* Added padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #e8491d; /* Dark orange on hover */
+}
+
+/* Gradient background for navigation */
+nav {
+    background: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to indigo gradient */
+}
+
+/* Hover effect for profile photo */
+.profile-photo:hover {
+    transform: translateY(-2px); /* Move photo up slightly */
+}
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007bff; /* Updated section title color */
+    border-bottom: 2px solid #007bff; /* Updated section title border color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to indigo gradient */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    margin-bottom: 20px;
+    color: #ffffff; /* White text */
+}
+
+.section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.section ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.section ul li a:hover {
+    color: #c53e1d; /* Dark orange on hover */
+}
+
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to indigo gradient */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .section {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: disc; /* Specifies the bullet style */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+.experience-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#skills {
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.skill-item img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+.skill-item p {
+    margin-top: 10px;
+}
+
+.experience-details {
+    grid-column: 1 / span 1;
+}
+
+.experience-image {
+    grid-column: 2 / span 1;
+}
+
+.experience-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer h3 {
+    margin-bottom: 20px;
+    color: #007bff; /* Updated footer section title color */
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ffd700; /* Updated footer link hover color */
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ffd700; /* Updated footer social icon hover color */
+}
+
+/* Flashy hover effect for social icons */
+.footer-social a:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Adding a pulsating effect for social icons */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.footer-social a:hover {
+    animation: pulse 1s infinite alternate; /* Apply pulsating effect */
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .profile-photo {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+/* Improved design for header */
+header {
+    background: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to indigo gradient */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Example of CSS animation for section */
+section {
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Example of CSS animation for footer */
+footer {
+    animation: fadeInUp 1s ease-out;
+}
+/* Example of CSS animation for section */
+/* Style for section container */
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
